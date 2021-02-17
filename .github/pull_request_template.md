@@ -6,7 +6,7 @@
 
 ### Test coverage
 - [ ] Did you add a spec to test every option?
-- [ ] 
+- [ ] Do the spec messages make sense? Flow?
 
 ###  Notes/Request feedback
 - Are there any outstanding scenarios you need a second opinion on?
@@ -14,18 +14,19 @@
 
 ### Links
 - [Jenkins test instance](url)
-- [Github test workflow](URL) 
+- [Github test workflow](url) 
+- [Other url links](url)
 
 Closes #WORKITEM
 
-### Optional Changes
+### Optional changes
 - Configuration changes
-- dependencies
+- Dependencies
 - Anything else?
 
 ## Reviewing your own PR checklist
 - [ ] Remove unused/commented out code
 - [ ] Remove duplicated code
-- [ ] Does the feature already have a design pattern
+- [ ] Remove binding.pry
+- [ ] Does the feature follow established design patterns
 - [ ] Refactor methods
-- [ ] Is there a spec for every method implemented?
