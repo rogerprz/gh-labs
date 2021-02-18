@@ -2,7 +2,7 @@
 This is a new change.
 
 
-- [ ] Name change
+- [ ] New bullet point
 - [ ] Name change
 - [ ] Name change
 - [ ] Other change
