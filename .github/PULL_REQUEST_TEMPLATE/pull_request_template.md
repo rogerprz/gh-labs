@@ -1,4 +1,4 @@
-## Personal PR checklist
+## PR checklist
 
 - [ ] What was changed?
 - [ ] Why was it changed?
