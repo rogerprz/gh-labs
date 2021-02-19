@@ -3,6 +3,8 @@
 
 ### Test coverage
 <!--Did you test for every available option? -->
+<!--Did you add any edge cases that need mention? -->
+
 
 ###  Notes/Request feedback
 
