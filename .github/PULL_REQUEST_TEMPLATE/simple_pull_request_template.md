@@ -1,7 +1,7 @@
-### Description
-<!--What was changed? Why was it changed? How was it changed?-->
+### Description + Test coverage changes
 
-### Test coverage
+<!--What, why, and how was it changed?-->
+
 <!--Did you test for every available option? -->
 <!--Did you add any edge cases that need mention? -->
 
@@ -12,4 +12,6 @@
 
 Closes #WORKITEM
 
-### Anything else
+### Anything else?
+<!-- any work items created? -->
+<!-- -->
