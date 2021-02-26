@@ -9,7 +9,7 @@ assignees:
   
 ### Description + Test coverage
 <!--What, why, and how was it changed?-->
-- [ ] This PR adds support for X
+- [ ] This PR adds support for [PLUGIN NAME]
 - [ ] Added test coverage
 <!--Is there a spec for every available option? -->
 <!--Any edge cases that need mention? -->
