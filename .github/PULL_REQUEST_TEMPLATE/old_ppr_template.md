@@ -14,7 +14,6 @@
 ### Links
 - [Jenkins test instance](url)
 - [Github test workflow](url) 
-- [Other url links](url)
 
 Closes #WORKITEM
 
