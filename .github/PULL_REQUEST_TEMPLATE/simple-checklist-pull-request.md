@@ -11,10 +11,11 @@
 ####  Notes/Request feedback
 
 #### Links
+<!--
 - [Jenkins test instance](url)
 - [Workflow test](url)
 - [Plugin documentation](url)
-
+-->
 Closes #WORKITEM
 
 #### Anything else?
