@@ -1,5 +1,8 @@
 name: This is a name
 title: CONFIG Title
+
+- name: Dash in name
+  title: title with a dash
 contact_links:
   - name: First name
     url: https://github.community/
