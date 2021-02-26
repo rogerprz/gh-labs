@@ -1,3 +1,5 @@
+name: This is a name
+title: CONFIG Title
 contact_links:
   - name: First name
     url: https://github.community/
