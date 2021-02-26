@@ -1,4 +1,7 @@
 blank_issues_enabled: false
+- name: New new issue template
+  title: This is a title 
+  body: Body of the issue
 contact_links:
   - name: GitHub Community Support
     url: https://github.community/
