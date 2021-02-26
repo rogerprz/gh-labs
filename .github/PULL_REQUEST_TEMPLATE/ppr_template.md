@@ -1,5 +1,4 @@
-## Personal PR checklist
-
+## Description + Specs coverage
 - [ ] What was changed?
 - [ ] Why was it changed?
 - [ ] How was it changed?
@@ -24,9 +23,16 @@ Closes #WORKITEM
 - Dependencies
 - Anything else?
 
-## Reviewing your own PR checklist
-- [ ] Remove unused/commented out code
-- [ ] Remove duplicated code
-- [ ] Remove binding.pry
-- [ ] Does the feature follow established design patterns
-- [ ] Refactor methods
+### Checklist
+- [ ] I have performed a self-review of my own code
+  - [ ] Remove unused/commented out code
+  - [ ] Refactor duplicated code/methods
+  - [ ] Remove binding.pry's
+  - [ ] Does the feature follow established design patterns
+- [ ] I have added tests that prove my fix is effective or that my feature works
+  - [ ] 
+
+- [ ] I have made corresponding changes to the README
+  - [ ] Individual plugin README
+- [ ] My changes generate no new warnings
+- [ ] New and existing unit tests pass locally with my changes
