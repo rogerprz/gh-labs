@@ -1,4 +1,4 @@
-#### Description + Test coverage changes
+### Description + Test coverage changes
 <!--What, why, and how was it changed?-->
 <!--
 - [ ] This PR adds support for X
@@ -7,10 +7,9 @@
 <!--Is there a spec for every available option? -->
 <!--Any edge cases that need mention? -->
 
+###  Notes/Request feedback
 
-####  Notes/Request feedback
-
-#### Links
+### Links
 <!--
 - [Jenkins test instance](url)
 - [Workflow test](url)
@@ -18,7 +17,7 @@
 -->
 Closes #WORKITEM
 
-#### Anything else?
+### Anything else?
 <!-- any work items created? -->
 Created WI: #
 
