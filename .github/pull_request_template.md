@@ -1,3 +1,11 @@
+---
+# Currently supported
+name: "Jenkinsfile"
+about: "Feature request blabla"
+# Please add these <!>
+title: "This is a title"
+labels: ["feature-request", "not-reviewed"]
+---
 ## PR checklist
 
 - [ ] What was changed?
