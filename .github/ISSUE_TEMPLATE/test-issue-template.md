@@ -1,7 +1,7 @@
 ---
 name: Test issue template
 about: Describe this issue template's purpose here.
-title: 'Add support for [TITLE][DATE]
+title: 'Add support for [DATE]'
 labels: 'bug'
 assignees: self
 
