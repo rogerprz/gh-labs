@@ -1,7 +1,9 @@
 #### Description + Test coverage changes
 <!--What, why, and how was it changed?-->
+<!--
 - [ ] This PR adds support for X
 - [ ] Added test coverage
+-->
 <!--Did you test for every available option? -->
 <!--Did you add any edge cases that need mention? -->
 
@@ -15,6 +17,8 @@
 
 Closes #WORKITEM
 
-### Anything else?
+#### Anything else?
 <!-- any work items created? -->
+Created WI: #
+
 <!-- -->
