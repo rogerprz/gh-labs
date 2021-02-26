@@ -1,45 +1,41 @@
-LOADED BY DEFAULT
-
-
+---
+name: New transformer functionality
+about: "Use this template for tracking new plugins"
+title: "Add support for <transformer-plugin> ([CI NAME])"
+labels: azure-devops, transformers, travis-ci, multibranch-pipeline, jenkinsfile-transformer, designer-transformer
 
 ---
+### Description + Test coverage
+<!--What, why, and how was it changed?-->
+- [ ] This PR adds support for X
+- [ ] Added test coverage
+<!--Is there a spec for every available option? -->
+<!--Any edge cases that need mention? -->
 
-name: "Jenkinsfile"
-about: "Feature request blabla"
-# Please add these <!>
-title: "This is a title"
-labels: ["feature-request", "not-reviewed"]
-
----
-## PR checklist
-
-- [ ] What was changed?
-- [ ] Why was it changed?
-- [ ] How was it changed?
-
-### Test coverage
-- [ ] Did you add a spec to test every option?
-- [ ] Do the spec messages make sense? Flow?
-
-###  Notes/Request feedback
-- Are there any outstanding scenarios you need a second opinion on?
-- Add notes here or make an inline `note: comment`
+###  Notes + Request feedback
 
 ### Links
-- [Jenkins test instance](url)
-- [Github test workflow](url) 
-- [Other url links](url)
+- [Test instance](url)
+- [Workflow test](url)
+- [Plugin documentation](url)
 
 Closes #WORKITEM
 
-### Optional changes
-- Configuration changes
-- Dependencies
-- Anything else?
+### Anything else?
+<!-- any work items created? -->
+Created WI: #
 
-## Reviewing your own PR checklist
-- [ ] Remove unused/commented out code
-- [ ] Remove duplicated code
-- [ ] Remove binding.pry
-- [ ] Does the feature follow established design patterns
-- [ ] Refactor methods
+### Checklist
+- [ ] I have performed a self-review of my own code
+<!-- sub bullets can be removed to simplify or commented out so they are not visible -->
+  - [ ] Remove unused/commented out code
+  - [ ] Refactor duplicated code/methods
+  - [ ] Remove binding.pry's
+  - [ ] Does the feature follow established design patterns
+- [ ] I have added tests that prove my fix is effective or that my feature works
+<!-- sub bullets can be removed to simplify or commented out so they are not visible -->
+  - [ ] Specs provide a readable flow
+  - [ ] New and existing specs pass locally with my changes
+  - [ ] My changes generate no new warnings
+- [ ] I have made corresponding changes to the README
+  - [ ] Individual plugin README
