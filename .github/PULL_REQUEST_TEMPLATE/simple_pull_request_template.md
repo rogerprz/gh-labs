@@ -21,4 +21,15 @@ Closes #WORKITEM
 <!-- any work items created? -->
 Created WI: #
 
-<!-- -->
+### Checklist
+- [ ] I have performed a self-review of my own code
+  - [ ] Remove unused/commented out code
+  - [ ] Refactor duplicated code/methods
+  - [ ] Remove binding.pry's
+  - [ ] Does the feature follow established design patterns
+- [ ] I have added tests that prove my fix is effective or that my feature works
+  - [ ] Specs provide a readable flow
+  - [ ] New and existing specs pass locally with my changes
+  - [ ] My changes generate no new warnings
+- [ ] I have made corresponding changes to the README
+  - [ ] Individual plugin README
