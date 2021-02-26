@@ -1,7 +1,7 @@
 ---
 name: New transformer functionality
 about: "Use this template for tracking new plugins"
-title: "Add support for <transformer-plugin> ([NAME])"
+title: " {{ payload.issue.title }} "
 labels: azure-devops, transformers, travis-ci, multibranch-pipeline, jenkinsfile-transformer, designer-transformer
 assignees: 
 ---
