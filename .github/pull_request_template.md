@@ -1,10 +1,11 @@
 ---
 name: New transformer functionality
 about: "Use this template for tracking new plugins"
-title: "Add support for <transformer-plugin> ([CI NAME])"
+title: "Add support for <transformer-plugin> ([NAME])"
 labels: azure-devops, transformers, travis-ci, multibranch-pipeline, jenkinsfile-transformer, designer-transformer
-
+assignees: 
 ---
+  
 ### Description + Test coverage
 <!--What, why, and how was it changed?-->
 - [ ] This PR adds support for X
