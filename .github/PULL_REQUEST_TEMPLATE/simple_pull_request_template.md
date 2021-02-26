@@ -4,8 +4,8 @@
 - [ ] This PR adds support for X
 - [ ] Added test coverage
 -->
-<!--Did you test for every available option? -->
-<!--Did you add any edge cases that need mention? -->
+<!--Is there a spec for every available option? -->
+<!--Any edge cases that need mention? -->
 
 
 ####  Notes/Request feedback
