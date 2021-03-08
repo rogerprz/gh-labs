@@ -1,3 +1,4 @@
+<!--
 ---
 name: New transformer functionality
 about: "Use this template for tracking new plugins"
@@ -5,7 +6,7 @@ title: Title field
 labels: bug
 assignees: 
 ---
-
+-->
   
 ### Description + Test coverage
 <!--What, why, and how was it changed?-->
