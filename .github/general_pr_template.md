@@ -6,29 +6,14 @@
 <!--Any edge cases that need mention? -->
 
 ###  How is it tested
+- Add details
 
-### Links
-- [Test instance](url)
-- [Workflow test](url)
-- [Plugin documentation](url)
+Closes #WorkItemNumber
 
-Closes #WORKITEM
-
-### Anything else?
+### Additional Notes
 <!-- any work items created? -->
 Created WI: #
 
-### Checklist
-- [ ] I have performed a self-review of my own code
-<!-- sub bullets can be removed to simplify or commented out so they are not visible -->
-  - [ ] Remove unused/commented out code
-  - [ ] Refactor duplicated code/methods
-  - [ ] Remove binding.pry's
-  - [ ] Does the feature follow established design patterns
-- [ ] I have added tests that prove my fix is effective or that my feature works
-<!-- sub bullets can be removed to simplify or commented out so they are not visible -->
-  - [ ] Specs provide a readable flow
-  - [ ] New and existing specs pass locally with my changes
-  - [ ] My changes generate no new warnings
-- [ ] I have made corresponding changes to the README
-  - [ ] Individual plugin README
+- [TestInstance](url)
+- [WorkflowTest](url)
+- [Plugin documentation](url)
