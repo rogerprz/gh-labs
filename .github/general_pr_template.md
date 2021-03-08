@@ -13,7 +13,7 @@ Closes #WorkItemNumber
 
 ### Additional notes
 <!-- any work items created? -->
-Created WI: #
+Created: #WorkItem
 
 - [TestInstance](url)
 - [WorkflowTest](url)
