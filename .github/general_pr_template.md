@@ -1,11 +1,11 @@
-### Description + Test coverage
+### What's changing
 <!--What, why, and how was it changed?-->
 - [ ] This PR adds support for [PLUGIN NAME]
 - [ ] Added test coverage
 <!--Is there a spec for every available option? -->
 <!--Any edge cases that need mention? -->
 
-###  Notes + Request feedback
+###  How is it tested
 
 ### Links
 - [Test instance](url)
