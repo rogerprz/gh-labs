@@ -1,19 +1,20 @@
-### What's changing
+### Description
+Add details
 <!--What, why, and how was it changed?-->
-- [ ] This PR adds support for [PLUGIN NAME]
-- [ ] Added test coverage
+- [ ] This PR adds support for [PluginName]
+
+
+###  Test coverage
 <!--Is there a spec for every available option? -->
 <!--Any edge cases that need mention? -->
-
-###  How is it tested
-- Add details
+- Add spec details
 
 Closes #WorkItemNumber
 
-### Additional Notes
+### Additional notes
 <!-- any work items created? -->
 Created WI: #
 
 - [TestInstance](url)
 - [WorkflowTest](url)
-- [Plugin documentation](url)
+- [PluginDocumentation](url)
