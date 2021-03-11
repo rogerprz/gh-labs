@@ -1,0 +1,99 @@
+name: rogerprz/multi-branch-pipeline-1
+on:
+  schedule:
+  - cron: 42 4 1,15 1-12 *
+  - cron: 29 12 1,15 1-12 *
+env:
+#   # This item has no matching transformer
+#   BUILD_SESSION_ENV: |-
+#     ${sh (
+#                 script: 'printenv |sort',
+#                 returnStdout: true
+#             ).trim()}
+jobs:
+  Build:
+    runs-on:
+      - self-hosted
+      - docker-label-field
+    steps:
+    - name: checkout
+      uses: actions/checkout@v2
+    - name: sh
+      shell: bash
+      run: ls -al
+    - name: echo message
+      run: echo "Building ${env.BUILD_ID} on ${env.JENKINS_URL}"
+    - name: echo message
+      run: 'echo "Testing env vars: ${env.CC}"'
+    - name: checkout
+      uses: actions/checkout@v2
+      with:
+        repository: github/jenkout-fake-repo
+#     # This item has no matching transformer
+#     - withCredentials:
+#         isLiteral: false
+#         value: "${[usernamePassword(credentialsId: 'hello-kb', passwordVariable: 'pass', usernameVariable: 'user')]}"
+  Test:
+    runs-on:
+      - self-hosted
+      - docker-label-field
+    needs: Build
+    steps:
+    - name: checkout
+      uses: actions/checkout@v2
+    - name: echo message
+      run: echo Testing..
+    - name: sh
+      shell: bash
+      run: 'true'
+    - name: checkout
+      uses: actions/checkout@v2
+      with:
+        repository: github/test-stage
+#     # This item has no matching transformer
+#     - writeFile:
+#       - key: file
+#         value:
+#           isLiteral: true
+#           value: output/usefulfile.txt
+#       - key: text
+#         value:
+#           isLiteral: false
+#           value: '"This file is useful, need to archive it. Git SHA: ${env.GIT_COMMIT}"'
+#     # This item has no matching transformer
+#     - writeFile:
+#       - key: file
+#         value:
+#           isLiteral: true
+#           value: output/env.txt
+#       - key: text
+#         value:
+#           isLiteral: false
+#           value: "${env.BUILD_SESSION_ENV}"
+#     # This item has no matching transformer
+#     - writeFile:
+#       - key: file
+#         value:
+#           isLiteral: true
+#           value: output/uselessfile.md
+#       - key: text
+#         value:
+#           isLiteral: true
+#           value: This file is useless, no need to archive it.
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        path: |-
+          output/*.txt
+          !output/*.md
+      if: always()
+  Deploy:
+    runs-on:
+      - self-hosted
+      - docker-label-field
+    needs: Test
+    steps:
+    - name: checkout
+      uses: actions/checkout@v2
+    - name: echo message
+      run: echo Deploying....
