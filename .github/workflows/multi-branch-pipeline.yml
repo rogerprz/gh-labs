@@ -1,0 +1,13 @@
+name: rogerprz/multi-branch-pipeline
+on:
+  workflow_dispatch:
+jobs:
+  Stage1:
+    runs-on: ubuntu-latest
+    container:
+      image: maven:3-alpine
+    steps:
+    - name: checkout
+      uses: actions/checkout@v2
+    - name: echo message
+      run: echo Hello world!
