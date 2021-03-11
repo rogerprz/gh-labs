@@ -1,0 +1,13 @@
+name: rogerprz/multi-branch-pipeline/none
+on:
+  workflow_dispatch:
+jobs:
+  Build:
+    runs-on:
+      - self-hosted
+      - docker-label-field
+    steps:
+    - name: checkout
+      uses: actions/checkout@v2
+    - name: echo message
+      run: echo Hello...world!
