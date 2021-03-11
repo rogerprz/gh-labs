@@ -1,0 +1,13 @@
+name: rogerprz/multi-branch-pipeline/node-label-only
+on:
+  workflow_dispatch:
+jobs:
+  Stage1:
+    runs-on:
+      - self-hosted
+      - labelName
+    steps:
+    - name: checkout
+      uses: actions/checkout@v2
+    - name: echo message
+      run: echo Hello world!
